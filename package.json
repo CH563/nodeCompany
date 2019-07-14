@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/CH563/nodeCompany/issues"
   },
-  "homepage": "https://github.com/CH563/nodeCompany#readme"
+  "homepage": "https://github.com/CH563/nodeCompany#readme",
+  "dependencies": {
+    "dayjs": "^1.8.15",
+    "mysql": "^2.17.1"
+  }
 }

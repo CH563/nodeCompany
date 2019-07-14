@@ -1,18 +1,7 @@
-import * as mysql from 'mysql';
 import * as http from 'http';
 import * as url from 'url';
 import * as qs from 'querystring';
-import * as dayjs from 'dayjs';
-
-const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '123456',
-    database: 'company'
-});
-
-// 连接数据库
-connection.connect();
+import register from './register';
 
 // 创建服务
 console.log('创建web');
@@ -53,6 +42,7 @@ http.createServer((request: http.IncomingMessage, response: http.ServerResponse)
                     break;
                 case '/register':
                     console.log('注册');
+                    register(result, response);
                     break;
                 default:
                     console.log(`找不到 ${pathName} 模块`);

@@ -1,0 +1,19 @@
+{
+  "name": "nodecompany",
+  "version": "1.0.0",
+  "description": "nod",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CH563/nodeCompany.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CH563/nodeCompany/issues"
+  },
+  "homepage": "https://github.com/CH563/nodeCompany#readme"
+}
